@@ -1,4 +1,4 @@
-nclude <stdio.h>
+include <stdio.h>
 
 /**
  * main - Entry point
@@ -7,6 +7,6 @@ nclude <stdio.h>
  */
 int main (void)
 {
-		return
+		return (0);
 }
 
