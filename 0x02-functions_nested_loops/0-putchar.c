@@ -1,9 +1,3 @@
-#include <main.h>
-/**
-*main - Entry point
-*Print _putchar program
-*Return: Always 0
-*/
 char putchar_prog(void)
 {
 	char pc = "_putchar";
@@ -15,5 +9,5 @@ char putchar_prog(void)
 	}
 	_putchar('\n');
 
-return (char);
+return (0);
 }
