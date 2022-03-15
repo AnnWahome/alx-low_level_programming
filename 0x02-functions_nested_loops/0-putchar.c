@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- *main - Entry block
- *putchar function
- *Return: 0
+ * main - entry block
+ * @void: no argument
+ * Return: 0
  **/
-int _putchar(char mytext)
+int _putchar(char c)
 {
-  char mytext[] = "_putchar";
-  int c;
-  for (c=0; c<8; c++)
-    {
-      return  (write(1, &mytext, 1));
-    }
-  putchar('\n');
+	char ermias[] = "_putchar";
 
-  return (0);
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+	  return (write(1, &ermias, 1));
+	}
+	return (write(1, '\n', 1));
 }
