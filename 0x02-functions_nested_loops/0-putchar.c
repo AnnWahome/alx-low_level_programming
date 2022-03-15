@@ -1,11 +1,11 @@
 char putchar_prog(void)
 {
-	char pc = "_putchar";
+	char *pc = "_putchar";
 
-	while(pc)
+	while(*pc)
 	{
 		_putchar(pc);
-		pc++;
+		*pc++;
 	}
 	_putchar('\n');
 
