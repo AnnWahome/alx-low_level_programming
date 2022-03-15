@@ -4,13 +4,13 @@
  *putchar function
  *Return: 0
  **/
-int _putchar(void)
+int _putchar(char mytext)
 {
   char mytext[] = "_putchar";
   int c;
   for (c=0; c<8; c++)
     {
-     putchar(mytext[c]);
+      return  (write(1, &mytext, 1));
     }
   putchar('\n');
 
