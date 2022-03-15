@@ -1,4 +1,4 @@
-int putchar_prog(char *pc)
+int putchar_prog(void)
 {
 	char *pc = "_putchar";
 
