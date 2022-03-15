@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * main - entry block
- * @void: no argument
+ * main - Entry point
+ * No argument expected
  * Return: 0
  **/
-int _putchar(char c)
+int main(void)
 {
-	char ermias[] = "_putchar";
+	char ann[] = "_putchar";
 
-	int c;
+	int n;
 
-	for (c = 0; c < 8; c++)
+	for (n = 0; n < 8; n++)
 	{
-	  return (write(1, &ermias, 1));
+		_putchar(ann[n]);
 	}
-	return (write(1, '\n', 1));
+	_putchar('\n');
+	return (0);
 }
