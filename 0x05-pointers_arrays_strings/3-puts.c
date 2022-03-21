@@ -15,3 +15,4 @@ while(str[j] != '\0')
 j++;
 _putchar('\n');
 }
+}
